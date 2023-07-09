@@ -1,0 +1,79 @@
+.hearfromOurMentors__parent__container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #F5F5F5;
+  justify-content: center;
+}
+
+.hearfromOurMentors__container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+  padding: 80px 40px;
+  border-radius: 50px;
+  width: 75%;
+  background: white;
+}
+
+.hearfromOurMentors__container h1 {
+  text-align: center;
+  color: var(--b-1, #1e1e1e);
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.96px;
+}
+
+.hearfromOurMentors__card__container {
+  display: flex;
+  gap: 100px;
+}
+
+.hearfromOurMentors__card {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  gap: 30px;
+}
+
+.hearfromOurMentors__card__author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hearfromOurMentors__card__author img {
+  border-radius: 50%;
+}
+
+.mentor__name{
+    color: #00487C;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0.2px;
+}
+
+.mentor__address{
+    color: #00A896;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0.2px;
+}
+
+.mentor__comment{
+    color: var(--b-1, #1E1E1E);
+
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0.16px;
+}

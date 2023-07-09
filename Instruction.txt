@@ -1,0 +1,2 @@
+Step 1 - Run npm install at root level of folder.
+Step 2 - Now run npm start.

@@ -1,0 +1,56 @@
+.home__container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.left {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1e1e1e;
+  gap: 40px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+
+.btn__group {
+  display: flex;
+  justify-content: flex-start;
+  gap: 45px;
+}
+
+.left__btn,
+.right__btn {
+  display: flex;
+  padding: 16px 20px;
+  border-radius: 15px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.36px;
+  cursor: pointer;
+}
+
+.left__btn {
+  color: white;
+  background: var(--blue, #00487c);
+  box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+}
+
+.right__btn {
+  border: 1px solid #00a896;
+  color: #00487c;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+}

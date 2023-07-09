@@ -1,0 +1,46 @@
+.footer__container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 220px;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 140px;
+}
+
+.footer__socialLinks__container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer__socialLinks__container img {
+  width: fit-content;
+}
+
+.footer__socialLinks {
+  display: flex;
+  gap: 35px;
+}
+
+.footer__menu p{
+    color: hsl(0, 0%, 12%);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0.2px;
+}
+
+.footer__menu span {
+  color: var(--blue, #00487c);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
